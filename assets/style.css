@@ -1,7 +1,35 @@
-/*NAV BAR AT TOP + img*/
 
+* {
+
+}
+
+/*NAV BAR AT TOP + img*/
+header {
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+
+}
+nav a {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+header h3 {
+    display: flex;
+    flex-direction: column;
+}
 /*ABOUT ME*/
+
 
 /*WORK*/
 
+
 /*CONTACT ME*/
+
