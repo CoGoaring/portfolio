@@ -1,35 +1,167 @@
-
-* {
+:root {
 
 }
-
+* {
+    font-family: Georgia;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*lighter green*/
+    /*background-color: rgb(132, 211, 132);*/
+}
+h2 {
+    text-align: center;
+}
 /*NAV BAR AT TOP + img*/
 header {
     display: flex;
     flex-direction: inline;
-    justify-content: space-between;
+    background-color: rgb(83, 185, 83);
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+header h2 {
+    font-size: 32px;
+    margin: 0 auto;
+    margin-left: 0vw;
+    background-color: rgb(0, 75, 0);
+    border-radius: 15px;
+    padding: 5px 5px;
+    color: rgb(207, 207, 207);
 }
 nav {
     display: flex;
     flex-direction: inline;
     flex-wrap: wrap;
-
+    background-color: rgb(0, 75, 0);
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin-right: 100px;
 }
 nav a {
     display: flex;
     flex-direction: inline;
     flex-wrap: wrap;
-    justify-content: right;
+    margin: 0 auto;
+    margin: 8px 25px;
+
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgb(207, 207, 207);
 }
-header h3 {
-    display: flex;
-    flex-direction: column;
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 /*ABOUT ME*/
+aside {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(117, 221, 117);
+    text-align: center;
+}
+aside img {
+    flex-basis: 0;
+    height: 300px;
+    width: auto;
+    margin-right: 88vw;
+}
+#about-me {
+    position: relative;
+    margin: 0vw 20vw;
+    bottom: 9vw;
 
-
+    font-size: 18px;
+}
+.caption {
+    position: relative;
+    right: 40vw;
+    bottom: 4vw;
+    font-size: 12px;
+}
 /*WORK*/
-
-
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 24vw;
+}
+main section img {
+    height: 100%;
+    width: auto;
+}
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 15vw;
+    border: 2px solid black;
+    margin: 2px 2px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5.25vw;
+    left: 25vw;
+    background-color: rgb(0, 75, 0);
+    margin-right: 45vw;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: rgb(207, 207, 207);
+}
+main section {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+}
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    width: 24.914vw;
+    height: 15vw;
+    border: 2px solid black;
+    margin: 2px 2px;
+}
+main section img {
+    height: 100%;
+    width: auto;
+}
+.smallCard section {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 4vw;
+    left: 1vw;
+    background-color: rgb(0, 75, 0);
+    margin-right: 15vw;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: rgb(207, 207, 207);
+}
 /*CONTACT ME*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 75, 0);
+    color: rgb(207, 207, 207);
+}
 
+footer ul {
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    margin: 0 auto;
+    margin: 8px 25px; 
+    font-size: 18px;
+    text-decoration: underline;
+}

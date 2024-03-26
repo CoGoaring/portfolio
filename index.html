@@ -9,58 +9,82 @@
       </head>
 
       <body>
-        <!--NAV BAR AT TOP + img-->
+        <!--NAV BAR-->
         <header>
+            <h2>Connor Goaring</h2>
             <nav>
-                <h2>Connor Goaring</h2>
-                <a>  About Me  </a>
-                <a>  Work  </a>
-                <a>  Contact Me  </a>
-                <a>  Resume  </a>
+                <a href="#about-me-link">About Me</a>
+                <a href="#work-link">Work</a>
+                <a href="#contact-link">Contact Me</a>
+                <a>Resume</a>
             </nav>
-            <h3>Cool Subtitle!</h3>
         </header>
-
         <!--ABOUT ME-->
         <aside> 
-            <h2>About Me</h2>
+            <h2 id="about-me-link">About Me</h2>
+            <img src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+            <p id="about-me">My name is Connor Goaring, and I have had a long-time interest in programming/coding. In middle school I took my first
+                half programming and half design class, where I learned how much fun programming small robots was. In high school I 
+                then took 4 years of programming in the Skyview SMT Robotics program, as well as some extra coding classes and 
+                extracurricular events. I was one of the lead programmers during the last 2 years as well, and found myself loving
+                learning and solving new problems everyday through code. Below is a list of some of my projects, and my other socials 
+                that you can find me on. I will keep it updated with my works in progress and my finished projects.
+            </p>
+            <p id="aboutMe"><strong>I don't have many projects listed yet, some of them are placeholders.</strong></p>
+            <p class="caption">This is my cat Hugo, I typically use him as a profile picture</p>
         </aside>
 
         <!--WORK-->
         <main>
-            <h2>Work</h2>
+            <h2 id="work-link">Work</h2>
             <!--1 Larger Section-->
-            <section class="card">
+            <section class="mainCard">
+                <img  src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+            </section>
+            <section class="card1">
                 <h3>Surf Report</h3>
                 <p>MERN Stack</p>
             </section>
             <section>
-                <div>
-                    <h3>LED Wall</h3>
-                    <p>Node/IoT</p>
+                <div class="smallCard">
+                    <img  src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+                    <section class="card2">
+                        <h3>LED Wall</h3>
+                        <p>Node/IoT</p>
+                    </section>
                 </div>
-                <div>
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
+                <div class="smallCard">
+                    <img  src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+                    <section class="card2">
+                        <h3>Calculator</h3>
+                        <p>React/JavaScript/CSS</p>
+                    </section>
                 </div>
-                <div>
-                    <h3>Pastel Puzzles</h3>
-                    <p>MERN Stack</p>
+                <div class="smallCard">
+                    <img  src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+                    <section class="card2">
+                        <h3>Pastel Puzzles</h3>
+                        <p>MERN Stack</p>
+                    </section>
                 </div>
-                <div>
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
+                <div class="smallCard">
+                    <img  src="assets/images/hug pretty.jpg" alt="My typical profile picture"/>
+                    <section class="card2">
+                        <h3>Run Buddy</h3>
+                        <p>HTML/CSS</p>
+                    </section>
                 </div>
             </section>
         </main>
 
         <!--CONTACT ME-->
         <footer>
-            <h2>Contact Me</h2>
-            <a>Phone Number</a>
-            <a>Gmail</a>
-            <a>Github</a>
-            <a>Spotify</a>
+            <h2 id="contact-link">Contact Me</h2>
+            <ul>
+                <a>(360)852-0542</a>
+                <a>connorgoaring@gmail.com</a>
+                <a href="https://github.com/CoGoaring">https://github.com/CoGoaring</a>
+            </ul>
         </footer>
       </body>
 </html>
